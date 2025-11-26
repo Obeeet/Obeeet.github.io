@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Milanesa y Algo Más - ¡El Sabor de la Fonda Mexicana!</title>
+    
+    <meta name="description" content="La Milanesa y Algo Más: Tu fonda mexicana favorita. Las mejores Milanesas, Guisados tradicionales y Aguas Frescas. ¡Pide en línea!">
+    <meta name="keywords" content="Milanesas, Fonda Mexicana, Comida Mexicana, Guisados, Aguas Frescas, Paquetes de Comida">
+    <meta name="author" content="La Milanesa y Algo Más">
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    <a href="#menu" class="skip-link">Saltar a Menú Principal</a>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">La Milanesa y Algo Más</h1>
+            <nav class="nav" aria-label="Navegación Principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#paquetes">Paquetes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h2 id="hero-title">Sabor y Tradición en Cada Milanesa.</h2>
+                <p>Tu fonda mexicana favorita: Milanesas, Guisos y el mejor sazón.</p>
+                <a href="#menu" class="btn-primary" role="button">Ver Nuestro Menú</a>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section" aria-labelledby="menu-title">
+            <div class="container">
+                <h3 id="menu-title">Nuestro Menú Tradicional</h3>
+                <p class="section-description">Milanesas, Sazón Mexicano y las mejores Aguas Frescas.</p>
+
+                
+
+                <div id="milanesas-comidas" class="menu-grid" role="tabpanel" aria-labelledby="menu-title">
+                    <div class="menu-item" data-category="comidas">
+                        <img src="milanesa_res.jpg" alt="Milanesa de Res Clásica" loading="lazy">
+                        <h4>Milanesa de Res Clásica</h4>
+                        <p>Acompañada de arroz y frijoles refritos.</p>
+                        <span class="price">$95.00</span>
+                        
+                    </div>
+                    <div class="menu-item" data-category="comidas">
+                        <img src="milanesa_pollo_mexicana.jpg" alt="Milanesa de Pollo Empanizada" loading="lazy">
+                        <h4>Milanesa de Pollo Empanizada</h4>
+                        <p>La clásica de pollo, doradita y jugosa.</p>
+                        <span class="price">$89.00</span>
+                        
+                    </div>
+                    <div class="menu-item" data-category="comidas">
+                        <img src="milanesa_salsa.jpg" alt="Milanesa en Salsa" loading="lazy">
+                        <h4>Milanesa en Salsa Roja o Verde</h4>
+                        <p>Bañada en nuestra salsa de la casa, con queso.</p>
+                        <span class="price">$105.00</span>
+                       
+                    </div>
+                    <div class="menu-item" data-category="comidas">
+                        <img src="guisado_del_dia.jpg" alt="Guisado del Día" loading="lazy">
+                        <h4>El Guisado del Día</h4>
+                        <p>Pregunta por el platillo de hoy. (Puerco en salsa, Tinga, etc.)</p>
+                        <span class="price">$85.00</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="paquetes" class="promotions-section" aria-labelledby="paquetes-title">
+            <div class="container">
+                <h3 id="paquetes-title">Nuestros Paquetes de Comida</h3>
+                <p class="section-description">¡El mejor precio para que comas completo!</p>
+
+                <div class="promotions-grid">
+                    <div class="promo-item">
+                        <img src="paquete_ejecutivo.jpg" alt="Paquete Ejecutivo: sopa, guisado y agua" loading="lazy">
+                        <h4>Paquete Ejecutivo</h4>
+                        <p>Sopa del día + Milanesa o Guisado + Agua Fresca.</p>
+                        <span class="promo-price">$120.00</span>
+                        
+                    </div>
+                    <div class="promo-item">
+                        <img src="paquete_2x1.jpg" alt="Paquete 2 Milanesas con refresco" loading="lazy">
+                        <h4>Paquete Amigos (2 Milanesas)</h4>
+                        <p>Dos Milanesas Clásicas + Dos Coca-Colas de 355ml.</p>
+                        <span class="promo-price">$180.00</span>
+                        
+                    </div>
+                    <div class="promo-item">
+                        <img src="paquete_familiar_fonda.jpg" alt="Paquete Familiar de 4 platos y agua de litro" loading="lazy">
+                        <h4>Paquete Familiar</h4>
+                        <p>4 Platos fuertes, Guarniciones extra y 1 litro de Agua Fresca.</p>
+                        <span class="promo-price">$380.00</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bebidas-postres" class="menu-section" aria-labelledby="bebidas-postres-title" style="padding-top: 0;">
+            <div class="container">
+                <h3 id="bebidas-postres-title">Bebidas y Postres</h3>
+                
+                <div class="menu-grid" role="tabpanel" aria-labelledby="bebidas-postres-title">
+                    <div class="menu-item" data-category="bebidas">
+                        <img src="agua_horchata.jpg" alt="Agua de Horchata" loading="lazy">
+                        <h4>Agua de Horchata</h4>
+                        <p>Refrescante arroz con canela y vainilla. (1 Litro).</p>
+                        <span class="price">$40.00</span>
+                        
+                    </div>
+                    <div class="menu-item" data-category="bebidas">
+                        <img src="agua_jamaica.jpg" alt="Agua de Jamaica" loading="lazy">
+                        <h4>Agua de Jamaica</h4>
+                        <p>Flor de jamaica natural. (1 Litro).</p>
+                        <span class="price">$40.00</span>
+                        
+                    </div>
+                    <div class="menu-item" data-category="bebidas">
+                        <img src="agua_limon.jpg" alt="Agua de Limón" loading="lazy">
+                        <h4>Agua de Limón</h4>
+                        <p>Limonada fresca y natural. (1 Litro).</p>
+                        <span class="price">$35.00</span>
+                        
+                    </div>
+
+                    <div class="menu-item" data-category="refrescos">
+                        <img src="coca_cola.jpg" alt="Refresco Coca-Cola" loading="lazy">
+                        <h4>Refresco Coca-Cola</h4>
+                        <p>355 ml. Disponible también en Light/Zero.</p>
+                        <span class="price">$35.00</span>
+                        
+                    </div>
+
+                    <div class="menu-item" data-category="refrescos">
+                        <img src="boing.jpg" alt="Jugo Boing" loading="lazy">
+                        <h4>Jugo Boing</h4>
+                        <p>355 ml. Disponible Mango/Guayaba.</p>
+                        <span class="price">$35.00</span>
+                        
+                    </div>
+
+                    <div class="menu-item" data-category="postres">
+                        <img src="flan.jpg" alt="Flan Napolitano Casero" loading="lazy">
+                        <h4>Flan Napolitano Casero</h4>
+                        <p>Cremoso, con caramelo de la abuela.</p>
+                        <span class="price">$55.00</span>
+                        
+                    </div>
+                    <div class="menu-item" data-category="postres">
+                        <img src="arroz_leche.jpg" alt="Arroz con Leche" loading="lazy">
+                        <h4>Arroz con Leche</h4>
+                        <p>Postre caliente o frío, con canela.</p>
+                        <span class="price">$40.00</span>
+                        
+                    </div>
+                    <div class="menu-item" data-category="postres">
+                        <img src="Helado.jpg" alt="Helado" loading="lazy">
+                        <h4>Helado</h4>
+                        <p>Tres bolas de Helado con sabor a elegir.</p>
+                        <span class="price">$30.00</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section" aria-labelledby="contacto-title">
+            <div class="container">
+                <h3 id="contacto-title">Visítanos y Contáctanos</h3>
+                <div class="contact-info">
+                    <p><strong>📍 Dirección:</strong> Calle Ficticia 123, Fonda Mexicana</p>
+                    <p><strong>📞 Teléfono:</strong> <a href="tel:+1234567890">(123) 456-7890</a></p>
+                    <p><strong>⏰ Horario:</strong> Lunes a Sábado: 9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="map-container" role="region" aria-label="Ubicación de La Milanesa y Algo Más en el mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-74.005973!3d40.712776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQ5JzAxLjEiTiA3NMKwMDAnMjEuNSJX!5e0!3m2!1ses!2sus!4v1678901234567!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="current-year">2024</span> La Milanesa y Algo Más - Fonda Mexicana. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Síguenos en Facebook"><img src="facebook_icon.png" alt="Icono de Facebook" loading="lazy"></a>
+                <a href="#" aria-label="Síguenos en Instagram"><img src="instagram_icon.png" alt="Icono de Instagram" loading="lazy"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+           
+            const categoryButtons = document.querySelectorAll('.category-btn');
+            const menuItems = document.querySelectorAll('.menu-item');
+            const menuGridContainer = document.querySelector('#milanesas-comidas'); 
+
+            
+            const allMenuItems = document.querySelectorAll('.menu-item');
+
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const selectedCategory = button.getAttribute('data-category');
+
+                    
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    button.classList.add('active');
+
+                    
+                    allMenuItems.forEach(item => {
+                        const itemCategory = item.getAttribute('data-category');
+                        if (selectedCategory === 'comidas') {
+                           
+                            if (itemCategory === 'comidas') {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        } else if (selectedCategory === 'bebidas' || selectedCategory === 'refrescos' || selectedCategory === 'postres') {
+                             
+                            if (itemCategory === selectedCategory) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        }
+                    });
+                    
+                    
+                    const isFoodCategory = selectedCategory === 'comidas';
+                    document.querySelector('#milanesas-comidas').style.display = isFoodCategory ? 'grid' : 'none';
+                    document.querySelector('#bebidas-postres .menu-grid').style.display = isFoodCategory ? 'none' : 'grid';
+
+                    
+                    if (isFoodCategory) {
+                        menuItems.forEach(item => {
+                            if (item.getAttribute('data-category') === 'comidas') {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        });
+                    }
+                    
+                    
+                    else {
+                        menuItems.forEach(item => {
+                             if (item.getAttribute('data-category') === selectedCategory) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        });
+                    }
+                });
+            });
+
+            
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        });
+    </script>
+
+</body>
+</html>
